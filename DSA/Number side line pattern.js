@@ -1,0 +1,9 @@
+// ***********For Side line pattern***********
+
+let n=4;
+for (let i = 1; i <= n; i++) {
+    console.log("  ".repeat(i-1) + (i))
+}
+for(let i=3;i>=1;i--){
+    console.log("  ".repeat(2*n-i-1)+(i))
+}
